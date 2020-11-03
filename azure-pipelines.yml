@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  tag: ''
+  tag: '2.2.2'
   k8sNamespaceForPR: "kghostdemo-$(Build.BuildId)"
   ghostContainerRegistry: ''
   ghostACRname: ''
