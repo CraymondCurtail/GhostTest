@@ -11,14 +11,14 @@ resources:
 variables:
   tag: '2.2.2'
   k8sNamespaceForPR: "kghostdemo-$(Build.BuildId)"
-  ghostContainerRegistry: ''
-  ghostACRname: ''
-  curtui: ':4430'                            #Ip and Port for the Curtail UI. Can be replaced with any host name
-  kubernetesCluster: ''                      #Kube Cluster name
+  ghostContainerRegistry: 'ghostAcrCon'
+  ghostACRname: 'ghostcurtailreg2'
+  curtui: '40.125.62.47:4430'                            #Ip and Port for the Curtail UI. Can be replaced with any host name
+  kubernetesCluster: 'GhostCurtail2'                      #Kube Cluster name
   azResourceGroup: ''                         #Azure Resource group
-  azureSubEndpoint: ''                         #Azure Resource Manager (Service Connection)
-  azureKubeConnection: ''
-
+  azureSubEndpoint: 'ghostKubeRM'                         #Azure Resource Manager (Service Connection)
+  azureKubeConnection: 'ghostKubeCon'
+  functionURL: ''
 
 
 stages:
