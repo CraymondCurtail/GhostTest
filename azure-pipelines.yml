@@ -15,7 +15,7 @@ variables:
   ghostACRname: 'ghostcurtailreg2'
   curtui: '40.125.62.47:4430'                            #Ip and Port for the Curtail UI. Can be replaced with any host name
   kubernetesCluster: 'GhostCurtail2'                      #Kube Cluster name
-  azResourceGroup: 'craymondAks2'                         #Azure Resource group
+  azResourceGroup: ''                         #Azure Resource group
   azureSubEndpoint: 'ghostKubeRM'                         #Azure Resource Manager (Service Connection)
   azureKubeConnection: 'ghostKubeCon'
   functionURL: 'https:regradecall2.azurewebsites.netapiHttpTrigger1'
