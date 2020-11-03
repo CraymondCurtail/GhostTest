@@ -18,7 +18,7 @@ variables:
   azResourceGroup: ''                         #Azure Resource group
   azureSubEndpoint: 'ghostKubeRM'                         #Azure Resource Manager (Service Connection)
   azureKubeConnection: 'ghostKubeCon'
-  functionURL: ''
+  functionURL: 'SOMETHINGHERE'
 
 
 stages:
