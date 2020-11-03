@@ -25,7 +25,7 @@ RUN set -eux; \
 ENV GHOST_INSTALL /var/lib/ghost
 ENV GHOST_CONTENT /var/lib/ghost/content
 
-ENV GHOST_VERSION 2.2.2
+ENV GHOST_VERSION 2.2.4
 ENV GHOST_PORT 2368
 
 RUN set -eux; \
