@@ -219,6 +219,7 @@ stages:
 
         - task: Kubernetes@1
           displayName: 'delete the temp namespace'
+          condition: always()
           inputs:
             connectionType: Azure Resource Manager
             azureSubscriptionEndpoint: $(azureSubEndpoint)
